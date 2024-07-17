@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Windows.Controls;
 
 public class NorthwindContext : DbContext
 {

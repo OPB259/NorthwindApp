@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NorthwindApp</name>
+    </assembly>
+    <members>
+        <member name="T:NorthwindApp.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:NorthwindApp.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:NorthwindApp.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:NorthwindApp.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:NorthwindApp.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Category">
+            <summary>
+            Represents a category in the Northwind database.
+            </summary>
+        </member>
+        <member name="P:Category.CategoryID">
+            <summary>
+            Gets or sets the category ID.
+            </summary>
+        </member>
+        <member name="P:Category.CategoryName">
+            <summary>
+            Gets or sets the category name.
+            </summary>
+        </member>
+        <member name="P:Category.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+        </member>
+        <member name="P:Category.Picture">
+            <summary>
+            Gets or sets the picture.
+            </summary>
+        </member>
+        <member name="T:Customer">
+            <summary>
+            Represents a customer in the Northwind database.
+            </summary>
+        </member>
+        <member name="P:Customer.CustomerID">
+            <summary>
+            Gets or sets the customer ID.
+            </summary>
+        </member>
+        <member name="P:Customer.CompanyName">
+            <summary>
+            Gets or sets the company name.
+            </summary>
+        </member>
+        <member name="P:Customer.ContactName">
+            <summary>
+            Gets or sets the contact name.
+            </summary>
+        </member>
+        <member name="P:Customer.ContactTitle">
+            <summary>
+            Gets or sets the contact title.
+            </summary>
+        </member>
+        <member name="P:Customer.Address">
+            <summary>
+            Gets or sets the address.
+            </summary>
+        </member>
+        <member name="P:Customer.City">
+            <summary>
+            Gets or sets the city.
+            </summary>
+        </member>
+        <member name="P:Customer.Region">
+            <summary>
+            Gets or sets the region.
+            </summary>
+        </member>
+        <member name="P:Customer.PostalCode">
+            <summary>
+            Gets or sets the postal code.
+            </summary>
+        </member>
+        <member name="P:Customer.Country">
+            <summary>
+            Gets or sets the country.
+            </summary>
+        </member>
+        <member name="P:Customer.Phone">
+            <summary>
+            Gets or sets the phone number.
+            </summary>
+        </member>
+        <member name="P:Customer.Fax">
+            <summary>
+            Gets or sets the fax number.
+            </summary>
+        </member>
+        <member name="T:Order">
+            <summary>
+            Represents an order in the Northwind database.
+            </summary>
+        </member>
+        <member name="P:Order.OrderID">
+            <summary>
+            Gets or sets the order ID.
+            </summary>
+        </member>
+        <member name="P:Order.CustomerID">
+            <summary>
+            Gets or sets the customer ID.
+            </summary>
+        </member>
+        <member name="P:Order.OrderDate">
+            <summary>
+            Gets or sets the order date.
+            </summary>
+        </member>
+        <member name="P:Order.ShipName">
+            <summary>
+            Gets or sets the ship name.
+            </summary>
+        </member>
+        <member name="P:Order.ShipAddress">
+            <summary>
+            Gets or sets the ship address.
+            </summary>
+        </member>
+        <member name="T:Product">
+            <summary>
+            Represents a product in the Northwind database.
+            </summary>
+        </member>
+        <member name="P:Product.ProductID">
+            <summary>
+            Gets or sets the product ID.
+            </summary>
+        </member>
+        <member name="P:Product.ProductName">
+            <summary>
+            Gets or sets the product name.
+            </summary>
+        </member>
+        <member name="P:Product.SupplierID">
+            <summary>
+            Gets or sets the supplier ID.
+            </summary>
+        </member>
+        <member name="P:Product.CategoryID">
+            <summary>
+            Gets or sets the category ID.
+            </summary>
+        </member>
+        <member name="P:Product.QuantityPerUnit">
+            <summary>
+            Gets or sets the quantity per unit.
+            </summary>
+        </member>
+        <member name="P:Product.UnitPrice">
+            <summary>
+            Gets or sets the unit price.
+            </summary>
+        </member>
+        <member name="P:Product.UnitsInStock">
+            <summary>
+            Gets or sets the units in stock.
+            </summary>
+        </member>
+        <member name="P:Product.UnitsOnOrder">
+            <summary>
+            Gets or sets the units on order.
+            </summary>
+        </member>
+        <member name="P:Product.ReorderLevel">
+            <summary>
+            Gets or sets the reorder level.
+            </summary>
+        </member>
+        <member name="P:Product.Discontinued">
+            <summary>
+            Gets or sets a value indicating whether the product is discontinued.
+            </summary>
+        </member>
+        <member name="T:Supplier">
+            <summary>
+            Represents a supplier in the Northwind database.
+            </summary>
+        </member>
+        <member name="P:Supplier.SupplierID">
+            <summary>
+            Gets or sets the supplier ID.
+            </summary>
+        </member>
+        <member name="P:Supplier.CompanyName">
+            <summary>
+            Gets or sets the company name.
+            </summary>
+        </member>
+        <member name="P:Supplier.ContactName">
+            <summary>
+            Gets or sets the contact name.
+            </summary>
+        </member>
+        <member name="P:Supplier.ContactTitle">
+            <summary>
+            Gets or sets the contact title.
+            </summary>
+        </member>
+        <member name="P:Supplier.Address">
+            <summary>
+            Gets or sets the address.
+            </summary>
+        </member>
+        <member name="P:Supplier.City">
+            <summary>
+            Gets or sets the city.
+            </summary>
+        </member>
+        <member name="P:Supplier.Region">
+            <summary>
+            Gets or sets the region.
+            </summary>
+        </member>
+        <member name="P:Supplier.PostalCode">
+            <summary>
+            Gets or sets the postal code.
+            </summary>
+        </member>
+        <member name="P:Supplier.Country">
+            <summary>
+            Gets or sets the country.
+            </summary>
+        </member>
+        <member name="P:Supplier.Phone">
+            <summary>
+            Gets or sets the phone number.
+            </summary>
+        </member>
+        <member name="P:Supplier.Fax">
+            <summary>
+            Gets or sets the fax number.
+            </summary>
+        </member>
+        <member name="P:Supplier.HomePage">
+            <summary>
+            Gets or sets the homepage URL.
+            </summary>
+        </member>
+    </members>
+</doc>
