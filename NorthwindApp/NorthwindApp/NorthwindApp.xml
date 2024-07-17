@@ -22,6 +22,66 @@
             Application Entry Point.
             </summary>
         </member>
+        <member name="T:NorthwindApp.Customer">
+            <summary>
+            Represents a customer.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.CustomerID">
+            <summary>
+            Gets or sets the customer ID.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.CompanyName">
+            <summary>
+            Gets or sets the company name.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.ContactName">
+            <summary>
+            Gets or sets the contact name.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.ContactTitle">
+            <summary>
+            Gets or sets the contact title.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.Address">
+            <summary>
+            Gets or sets the address.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.City">
+            <summary>
+            Gets or sets the city.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.Region">
+            <summary>
+            Gets or sets the region.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.PostalCode">
+            <summary>
+            Gets or sets the postal code.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.Country">
+            <summary>
+            Gets or sets the country.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.Phone">
+            <summary>
+            Gets or sets the phone.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.Customer.Fax">
+            <summary>
+            Gets or sets the fax.
+            </summary>
+        </member>
         <member name="T:NorthwindApp.MainWindow">
             <summary>
             Interaction logic for MainWindow.xaml
@@ -30,10 +90,56 @@
             MainWindow
             </summary>
         </member>
+        <member name="M:NorthwindApp.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NorthwindApp.MainWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:NorthwindApp.MainWindow.LoadCustomers">
+            <summary>
+            Loads the customers from the database.
+            </summary>
+        </member>
         <member name="M:NorthwindApp.MainWindow.InitializeComponent">
             <summary>
             InitializeComponent
             </summary>
+        </member>
+        <member name="T:NorthwindApp.NorthwindContext">
+            <summary>
+            Context class for the Northwind database.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.NorthwindContext.Customers">
+            <summary>
+            Gets or sets the Customers table.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.NorthwindContext.Orders">
+            <summary>
+            Gets or sets the Orders table.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.NorthwindContext.Products">
+            <summary>
+            Gets or sets the Products table.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.NorthwindContext.Suppliers">
+            <summary>
+            Gets or sets the Suppliers table.
+            </summary>
+        </member>
+        <member name="P:NorthwindApp.NorthwindContext.Categories">
+            <summary>
+            Gets or sets the Categories table.
+            </summary>
+        </member>
+        <member name="M:NorthwindApp.NorthwindContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            Configures the database connection.
+            </summary>
+            <param name="optionsBuilder">The options builder to use.</param>
         </member>
         <member name="T:Category">
             <summary>
@@ -58,66 +164,6 @@
         <member name="P:Category.Picture">
             <summary>
             Gets or sets the picture.
-            </summary>
-        </member>
-        <member name="T:Customer">
-            <summary>
-            Represents a customer in the Northwind database.
-            </summary>
-        </member>
-        <member name="P:Customer.CustomerID">
-            <summary>
-            Gets or sets the customer ID.
-            </summary>
-        </member>
-        <member name="P:Customer.CompanyName">
-            <summary>
-            Gets or sets the company name.
-            </summary>
-        </member>
-        <member name="P:Customer.ContactName">
-            <summary>
-            Gets or sets the contact name.
-            </summary>
-        </member>
-        <member name="P:Customer.ContactTitle">
-            <summary>
-            Gets or sets the contact title.
-            </summary>
-        </member>
-        <member name="P:Customer.Address">
-            <summary>
-            Gets or sets the address.
-            </summary>
-        </member>
-        <member name="P:Customer.City">
-            <summary>
-            Gets or sets the city.
-            </summary>
-        </member>
-        <member name="P:Customer.Region">
-            <summary>
-            Gets or sets the region.
-            </summary>
-        </member>
-        <member name="P:Customer.PostalCode">
-            <summary>
-            Gets or sets the postal code.
-            </summary>
-        </member>
-        <member name="P:Customer.Country">
-            <summary>
-            Gets or sets the country.
-            </summary>
-        </member>
-        <member name="P:Customer.Phone">
-            <summary>
-            Gets or sets the phone number.
-            </summary>
-        </member>
-        <member name="P:Customer.Fax">
-            <summary>
-            Gets or sets the fax number.
             </summary>
         </member>
         <member name="T:Order">
