@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindApp", "NorthwindApp\NorthwindApp.csproj", "{BE013F33-D912-491E-9546-3A4221AA1327}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{B7491427-6CCF-43A1-AE2A-A1B7867446C6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE013F33-D912-491E-9546-3A4221AA1327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE013F33-D912-491E-9546-3A4221AA1327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE013F33-D912-491E-9546-3A4221AA1327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE013F33-D912-491E-9546-3A4221AA1327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B88FA83-4E03-42F5-BB17-9066A10B4198}
+	EndGlobalSection
+EndGlobal
